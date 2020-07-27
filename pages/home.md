@@ -7,14 +7,6 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
-
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
-
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
-
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
-
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+Hello, sweet friends. My name is Alexia. I write and record my own music and sometimes travel the world to various DIY spaces, venues, churches, and galleries to play for people. I am also a biodynamic craniosacral therapist in training. Thanks for finding your way to my Patreon page.\
+\
+I am currently working on a website so that you can learn more about me and my work (and book healing sessions with me), but you can find my 'ambient-folk' music on [Spotify](https://open.spotify.com/artist/08SD2vwQpHuHq8IiTM180I), [Bandcamp](https://alexiaavina.bandcamp.com/), [Apple Music](https://music.apple.com/ca/artist/alexia-avina/1338781702), [Soundcloud](https://soundcloud.com/alexiaavina) etc.
