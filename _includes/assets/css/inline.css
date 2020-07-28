@@ -1,8 +1,43 @@
+@custom-media --mq-medium (max-width: 800px);
+@custom-media --mq-small (max-width: 550px);
+
 :root {
-	--primary: blue;
+	--primary: #B1B4C3;
 	--secondary: white;
-	--background: #FFF0EB;
+	--background: #FCFCFD;
+	--peach: #DAA595;
+	--dark: #524849;
+
+	--main-spacing: 64px;
+    --gap-spacing: 40px;
+    --header-height: 80px;
+    --hero-spacing: 240px;
+    --centered-width: 50%;
 }
+
+@media (--mq-medium) {
+    :root {
+        --main-spacing: 40px;
+        --gap-spacing: 32px;
+        --hero-spacing: 120px;
+        --centered-width: 75%;
+    }
+}
+
+@media (--mq-small) {
+    :root {
+        --main-spacing: 32px;
+        --hero-spacing: 80px;
+    }
+}
+
+@font-face {
+    font-family: "Redaction";
+    font-weight: 700;
+    src: url(fonts/redaction-bold.woff2), url(fonts/redaction-bold.otf);
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -12,7 +47,6 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -20,6 +54,7 @@ body {
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
+	color: var(--dark);
 }
 
 main {
@@ -32,12 +67,16 @@ code {
 	line-height: 1.5;
 }
 
-a[href],
-a[href]:visited {
+a[href] {
 	color: var(--primary);
 }
 
 a[href]:not(:hover) {
+	text-decoration: none;
+}
+
+a[href]:hover {
+	color: var(--peach);
 	text-decoration: none;
 }
 
@@ -78,6 +117,17 @@ pre {
 	margin: .5em 0;
 }
 
+/* Typography */
+
+body {
+font-family: "Inconsolata", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, em {
+	font-family: "Redaction", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+
 /* Header Logo (style as h2) */
 header > em {
 	display: block;
@@ -100,11 +150,12 @@ header nav ul :first-child {
 header nav li {
 	display: inline-block;
 	margin: 0 .25em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 header nav li a {
 	padding: .25em .5em;
-	border-radius: .25em;
 }
 
 header nav li a[href]:not(:hover) {
@@ -112,8 +163,15 @@ header nav li a[href]:not(:hover) {
 }
 
 header nav li a[data-current="current item"] {
-	background-color: white;
+	color: var(--peach);
+	border-bottom: 2px solid var(--peach);
 }
+
+header nav li a:hover  {
+		color: var(--peach);
+	}
+}
+
 
 /* Posts List */
 article {
@@ -174,7 +232,7 @@ button {
   padding: 1em;
   margin-bottom: 1em;
 	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+	font-family: "Inconsolata", sans-serif;
 }
 
 input,
@@ -193,4 +251,39 @@ button {
 	:root {
 		font-size: 1.1rem;
 	}
+}
+
+/* Videos */
+
+.yt-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	margin: 1em;
+  }
+  .yt-container iframe, .yt-container object, .yt-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+  }
+
+/* Grid */
+section.grid {
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    margin: var(--main-spacing);
+    grid-gap: var(--gap-spacing);
+    align-items: center;
+}
+
+section.grid p {
+    margin: 20px 0 20px 0;
+}
+
+section.grid img {
+    width: 100%;
 }
