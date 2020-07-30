@@ -299,7 +299,7 @@ section.centered {
     margin-right: auto;
 }
 
-/* Images */ 
+/* Testimonial */ 
 
 section.testimonial {
     display: grid;
@@ -347,7 +347,7 @@ section.testimonial {
 	main {
 		width: 100%;
 	}
-	
+
 	section.testimonial {
 		display: block;
 		grid-template-columns: 1fr ;
@@ -357,4 +357,5 @@ section.testimonial {
 	.testimonial div {
 		margin: 20px 0;
 	}
+
 }
