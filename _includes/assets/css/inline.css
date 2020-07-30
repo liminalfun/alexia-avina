@@ -1,5 +1,7 @@
 @custom-media --mq-medium (max-width: 800px);
 @custom-media --mq-small (max-width: 550px);
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Libre+Franklin:wght@300&display=swap');
 
 :root {
 	--primary: #B1B4C3;
@@ -36,7 +38,6 @@
     font-weight: 700;
     src: url(fonts/redaction-bold.woff2), url(fonts/redaction-bold.otf);
 }
-
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -125,13 +126,12 @@ pre {
 /* Typography */
 
 body {
-font-family: "Inconsolata", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-family: 'Crimson Text', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, serif;
 }
 
 h1, h2, h3, em {
-	font-family: "Redaction", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: 'Redaction', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
-
 
 /* Header Logo (style as h2) */
 header > em {
@@ -155,7 +155,7 @@ header nav ul :first-child {
 header nav li {
 	display: inline-block;
 	margin: 0 .25em .25em .25em;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	letter-spacing: 1px;
 }
 
@@ -169,12 +169,10 @@ header nav li a[href]:not(:hover) {
 
 header nav li a[data-current="current item"] {
 	color: var(--peach);
-	border-bottom: 2px solid var(--peach);
 }
 
 header nav li a:hover  {
 	color: var(--peach);
-
 }
 
 
@@ -294,4 +292,28 @@ section.grid img {
     width: 100%;
 }
 
-/* Music alignment */ 
+/* Images */ 
+
+section.testimonial {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: auto;
+    grid-gap: var(--gap-spacing);
+}
+
+.testimonial img {
+	display: block;
+	margin: 0 auto 16px auto;
+	height: 75px;
+	width: 75px;
+	padding: 5 px;
+	border-radius: 100px;
+	
+}
+
+.testimonial div {
+	background-color: white;
+	padding: 12px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 2px var(--primary);
+}
