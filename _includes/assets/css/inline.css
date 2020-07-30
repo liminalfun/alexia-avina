@@ -37,7 +37,6 @@
     src: url(fonts/redaction-bold.woff2), url(fonts/redaction-bold.otf);
 }
 
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -174,8 +173,8 @@ header nav li a[data-current="current item"] {
 }
 
 header nav li a:hover  {
-		color: var(--peach);
-	}
+	color: var(--peach);
+
 }
 
 
