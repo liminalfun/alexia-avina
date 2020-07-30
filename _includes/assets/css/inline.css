@@ -1,5 +1,7 @@
 @custom-media --mq-medium (max-width: 800px);
 @custom-media --mq-small (max-width: 550px);
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Libre+Franklin:wght@300&display=swap');
 
 :root {
 	--primary: #B1B4C3;
@@ -12,7 +14,7 @@
     --gap-spacing: 40px;
     --header-height: 80px;
     --hero-spacing: 240px;
-    --centered-width: 50%;
+    --centered-width: 90%;
 }
 
 @media (--mq-medium) {
@@ -27,7 +29,8 @@
 @media (--mq-small) {
     :root {
         --main-spacing: 32px;
-        --hero-spacing: 80px;
+		--hero-spacing: 80px;
+		--centered-width: 100%;
     }
 }
 
@@ -36,7 +39,6 @@
     font-weight: 700;
     src: url(fonts/redaction-bold.woff2), url(fonts/redaction-bold.otf);
 }
-
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -58,7 +60,8 @@ body {
 
 main {
 	max-width: 37.5em;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
+	width: var(--centered-width)
 }
 
 p,
@@ -96,6 +99,10 @@ header, footer {
 	text-align: center;
 }
 
+footer i{
+	margin: 0 6px;
+}
+
 main {
 	padding-bottom: 2em;
 }
@@ -125,13 +132,12 @@ pre {
 /* Typography */
 
 body {
-font-family: "Inconsolata", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-family: 'Crimson Text', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, serif;
 }
 
 h1, h2, h3, em {
-	font-family: "Redaction", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: 'Redaction', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
-
 
 /* Header Logo (style as h2) */
 header > em {
@@ -155,7 +161,7 @@ header nav ul :first-child {
 header nav li {
 	display: inline-block;
 	margin: 0 .25em .25em .25em;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	letter-spacing: 1px;
 }
 
@@ -169,12 +175,10 @@ header nav li a[href]:not(:hover) {
 
 header nav li a[data-current="current item"] {
 	color: var(--peach);
-	border-bottom: 2px solid var(--peach);
 }
 
 header nav li a:hover  {
 	color: var(--peach);
-
 }
 
 
@@ -252,13 +256,6 @@ button {
 	cursor: pointer;
 }
 
-@media screen and (min-width:768px) {
-	:root {
-		font-size: 1.1rem;
-	}
-
-}
-
 /* Videos */
 
 .yt-container {
@@ -294,4 +291,71 @@ section.grid img {
     width: 100%;
 }
 
-/* Music alignment */ 
+/* Centered */
+section.centered {
+    text-align: center;
+    width: var(--centered-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Testimonial */ 
+
+section.testimonial {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: auto;
+    grid-gap: var(--gap-spacing);
+}
+
+.testimonial img {
+	display: block;
+	margin: 0 auto 16px auto;
+	height: 75px;
+	width: 75px;
+	padding: 5 px;
+	border-radius: 100px;
+	
+}
+
+.testimonial div {
+	background-color: white;
+	padding: 12px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 2px var(--primary);
+}
+
+/* Media Queries */
+
+@media screen and (min-width:768px) {
+	:root {
+		font-size: 1.1rem;
+	}
+
+}
+
+@media (max-width: 800px) {
+	section.testimonial {
+		display: none;
+		grid-template-columns: 1fr;
+		margin: auto;
+	}
+}
+
+
+@media (max-width: 550px) {
+	main {
+		width: 100%;
+	}
+
+	section.testimonial {
+		display: block;
+		grid-template-columns: 1fr ;
+		margin: auto;
+	}
+
+	.testimonial div {
+		margin: 20px 0;
+	}
+
+}
