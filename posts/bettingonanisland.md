@@ -6,7 +6,7 @@ tags:
 - releases
 ---
 
-<iframe style="border: 0; width: 350px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=1560507234/size=large/bgcol=ffffff/linkcol=B1B4C3/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/betting-on-an-island">Betting on an Island by Alexia Avina</a></iframe>
+<iframe style="border: 0; width: 320px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=1560507234/size=large/bgcol=ffffff/linkcol=B1B4C3/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/betting-on-an-island">Betting on an Island by Alexia Avina</a></iframe>
 
 all songs written and recorded by Alexia Avina in 2015 *
 mixed and produced by Nick Schofield

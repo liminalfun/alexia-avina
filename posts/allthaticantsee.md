@@ -8,7 +8,7 @@ tags:
 ---
 
 
-<iframe style="border: 0; width: 350px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=1753002933/size=large/bgcol=ffffff/linkcol=B1B4C3/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/all-that-i-cant-see">All That I Can&#39;t See by Alexia Avina</a></iframe>
+<iframe style="border: 0; width: 320px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=1753002933/size=large/bgcol=ffffff/linkcol=B1B4C3/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/all-that-i-cant-see">All That I Can&#39;t See by Alexia Avina</a></iframe>
 
 buy a tape here --> [:: never content ::](becomecontent.bandcamp.com/album/all-that-i-cant-see)
 

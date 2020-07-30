@@ -256,6 +256,7 @@ button {
 	:root {
 		font-size: 1.1rem;
 	}
+
 }
 
 /* Videos */
@@ -292,3 +293,5 @@ section.grid p {
 section.grid img {
     width: 100%;
 }
+
+/* Music alignment */ 
