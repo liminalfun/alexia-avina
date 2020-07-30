@@ -2,6 +2,7 @@
 title: All That I Can't See
 date: 2019-03-22T00:00:00.000Z
 summary: never content
+image: https://f4.bcbits.com/img/a1102685530_16.jpg
 tags:
 - releases
 - cassette

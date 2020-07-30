@@ -2,6 +2,7 @@
 title: Betting on an Island
 date: 2018-02-26T00:00:00.000Z
 summary: Self-released
+image: https://f4.bcbits.com/img/a3713597642_16.jpg
 tags:
 - releases
 ---

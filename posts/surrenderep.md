@@ -2,6 +2,7 @@
 title: Surrender EP
 date: 2017-04-17T00:00:00.000Z
 summary: Self-released
+image: https://f4.bcbits.com/img/a3867583884_16.jpg
 tags:
 - music video
 ---

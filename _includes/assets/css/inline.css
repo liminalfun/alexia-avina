@@ -188,8 +188,13 @@ header nav li a:hover  {
 article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--secondary);
+}
+
+time {
+	font-family: Inconsolata;
+	font-size: .8em;
+	text-transform: uppercase;
+	color: var(--primary);
 }
 
 main > section > article > * {
@@ -248,7 +253,7 @@ button {
 
 input,
 textarea {
-	border: 1px solid black;
+	border: 1px solid var(--dark);
 }
 
 button {
@@ -280,7 +285,6 @@ button {
 section.grid {
     display: grid;
 	grid-template-columns: 1fr 1fr;
-    margin: var(--main-spacing);
     grid-gap: var(--gap-spacing);
     align-items: center;
 }
@@ -320,11 +324,13 @@ section.testimonial {
 	
 }
 
-.testimonial div {
-	background-color: white;
+.testimonial p {
 	padding: 12px;
-	border-radius: 10px;
-	box-shadow: 0px 1px 2px var(--primary);
+	font-style: italic;
+}
+
+.testimonial small {
+	font-style: normal;
 }
 
 /* Media Queries */
@@ -337,10 +343,14 @@ section.testimonial {
 }
 
 @media (max-width: 800px) {
+
 	section.testimonial {
-		display: none;
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr;
 		margin: auto;
+	}
+
+	.testimonial div {
+		margin: 20px 0;
 	}
 }
 
@@ -350,7 +360,13 @@ section.testimonial {
 		width: 100%;
 	}
 
-	section.testimonial {
+	section.grid{
+		display: block;
+		grid-template-columns: 1fr;
+		margin: var(--main-spacing);
+	}
+
+	section.testimonial{
 		display: block;
 		grid-template-columns: 1fr ;
 		margin: auto;

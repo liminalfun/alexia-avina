@@ -26,13 +26,13 @@ Everyone has the ability to heal from within. Beneath our pain and suffering the
 
 <div>
   <img class="circle" src="/static/img/amethyst.jpg">
-<p>“Transform yourself to transform the world”<br>
-― Grace Lee Boggs</p>
+<p>“Transform yourself to transform the world”<br><small>
+― Grace Lee Boggs</small></p>
 </div>
 
 <div>
   <img class="circle" src="/static/img/angelite.jpg">
 <p>“What we've been trying to figure out how to get to is how we are when we get together to try to figure it out." <br>
-― Fred Moten</p>
+<small>― Fred Moten</small></p>
 </div>
 </section>
