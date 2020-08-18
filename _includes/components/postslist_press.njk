@@ -1,0 +1,34 @@
+<section class="grid">
+	{% for post in postslist | reverse %}
+		<article{% if post.url == url %} data-current="current item"{% endif %}>
+			<div class="article">
+				<h3>
+					{% if post.data.title %}
+						{{ post.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</h3>
+				{% if post.data.image %}
+					<img src="{{ post.data.image }}">
+				{% endif %}
+				<small class ="summary"> 
+					{% if post.data.photography %}
+						photos by 
+						{{ post.data.photography }}
+					{% endif%}
+				</small>
+				<p class="summary">
+				{% if post.data.summary %}
+						{{ post.data.summary }}...
+					{% endif %}
+				</p>
+				<a href="{{ post.data.hyperlink }}">
+					<button class="btn-outline">see full article</button>
+				</a>
+			</div>
+		</article>
+	{% endfor %}
+</section>
+
+

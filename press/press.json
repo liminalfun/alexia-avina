@@ -1,0 +1,7 @@
+{
+  "layout": "layouts/press.njk", 
+  "permalink": "press/{{ title | slug }}/index.html",
+  "tags": [
+    "press"
+  ]
+}
