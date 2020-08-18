@@ -4,7 +4,13 @@ section: blog
 permalink: /blog/index.html
 ---
 
-{% set postslist = collections.post %}
+<h1>Releases</h1>
+{% set postslist = collections.releases %}
 {% include "components/postslist.njk" %}
+
+<h1>Press</h1>
+
+{% set postslist = collections.press %}
+{% include "components/postslist_press.njk" %}
 
 {{ layoutContent | safe }}
