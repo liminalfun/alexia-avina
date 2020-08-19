@@ -1,0 +1,8 @@
+{
+  "layout": "layouts/release.njk",
+  "permalink": "releases/{{ title | slug }}/index.html",
+  "tags": [
+    "release",
+    "releases"
+  ]
+}

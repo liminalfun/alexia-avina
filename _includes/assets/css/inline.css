@@ -1,23 +1,27 @@
-@custom-media --mq-medium (max-width: 800px);
-@custom-media --mq-small (max-width: 550px);
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
 @import url('https://fontlibrary.org/face/bagnard');
 
 :root {
+	--mq-medium: 880px;
+	--mq-small: 550px;
+
 	--primary: #B1B4C3;
+	--primary-hover: rgba(177, 180, 195,.25);
 	--secondary: white;
 	--background: #FCFCFD;
 	--peach: #DAA595;
+	--peach-hover: rgba(218, 165, 149, 0.25);
 	--dark: #524849;
 
 	--main-spacing: 64px;
     --gap-spacing: 40px;
     --header-height: 80px;
     --hero-spacing: 240px;
-    --centered-width: 90%;
+	--centered-width: 90%;
+	
 }
 
-@media (--mq-medium) {
+@media (max-width: 880px) {
     :root {
         --main-spacing: 40px;
         --gap-spacing: 32px;
@@ -26,7 +30,7 @@
     }
 }
 
-@media (--mq-small) {
+@media (max-width: 550px) {
     :root {
         --main-spacing: 32px;
 		--hero-spacing: 80px;
@@ -136,6 +140,17 @@ h1, h2, h3, em {
 	font-weight: normal;
 }
 
+h1, h2 {
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Inconsolata', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	font-size: .8em;
+	font-weight: normal;
+	color: var(--dark);
+}
+
 /* Header Logo (style as h2) */
 header > em {
 	display: block;
@@ -178,9 +193,84 @@ header nav li a:hover  {
 	color: var(--peach);
 }
 
+/* Footer */
+
+footer {
+	max-width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    grid-gap: var(--gap-spacing);
+	align-items: center;
+
+}
+
+@media (max-width: 550px){
+	footer{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
+
+
+
+/* Home */
+
+.platforms-list__container {
+width: 70%;
+min-width: 350px;
+margin: auto;
+margin-bottom: 2em;
+padding: 0;
+box-sizing: border-box;
+}
+
+.platform-list {
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 0 0 5px 5px;
+	padding: 0.5em;
+}
+
+.music-link__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0.6em;
+	overflow: hidden;
+}
+
+.music-link__logo {
+	float: left;
+	width: 7em;
+}
+
+.music-link__button {
+	float: right;
+	width: auto;
+    padding: 0.5em 1em;
+    background: #fff;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    font-weight: bold;
+    border-radius: 3px;
+	cursor: pointer;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, serif;
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 12px;
+}
+
+section.listen li{
+	padding: 0;
+	list-style: none;
+}
+
+
 
 /* Posts List */
-article {
+article, .article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
 }
@@ -195,6 +285,10 @@ time {
 main > section > article > * {
 	margin-top: 0;
 	margin-bottom: .5em;
+}
+
+.summary {
+	color: var(--primary)
 }
 
 /* Post Tags */
@@ -226,6 +320,11 @@ a[rel="tag"]:last-child {
 	margin-right: 0;
 }
 
+/* Contact */
+.full-width{
+	width: 100%;
+}
+
 /* Contact Form */
 form {
   display: grid;
@@ -244,18 +343,40 @@ button {
   margin-bottom: 1em;
 	font-size: 1rem;
 	font-family: "Inconsolata", sans-serif;
+border-radius: 3px;
 }
 
 input,
 textarea {
-	border: 1px solid var(--dark);
+	border: 1px solid var(--primary);
 }
 
 button {
 	border: 1px solid var(--primary);
+	background-color: var(--background);
+	color: var(--primary);
+	border-radius: 3px;
+	cursor: pointer;
+	width: auto;
+	margin: auto;
+	font-size: .9rem;
+	letter-spacing: 1px;
+}
+
+.btn-outline {
+	border: 1px solid var(--primary);
+	background-color: var(--background);
+	color: var(--primary);
+	cursor: pointer;
+	width: auto;
+	margin: auto;
+}
+
+button:hover {
+	border: 1px solid var(--primary);
 	background-color: var(--primary);
 	color: var(--secondary);
-	cursor: pointer;
+
 }
 
 /* Videos */
