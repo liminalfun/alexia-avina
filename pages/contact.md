@@ -8,4 +8,5 @@ eleventyNavigation:
   key: Contact
   order: 4
 ---
-![hi](/static/img/alexia-selfie.jpg)
+
+<img src="/static/img/alexia-selfie.jpg" alt="hi" class="full-width">
