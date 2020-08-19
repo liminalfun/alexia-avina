@@ -196,12 +196,17 @@ header nav li a:hover  {
 /* Footer */
 
 footer {
+	max-width: 90%;
+	margin: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
     grid-gap: var(--gap-spacing);
 	align-items: center;
-	
-	@media (max-width: 550px){
+
+}
+
+@media (max-width: 550px){
+	footer{
 		display: grid;
 		grid-template-columns: 1fr;
 	}
