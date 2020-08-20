@@ -1,10 +1,26 @@
 ---
 title: All That I Can't See
 date: 2019-03-22T00:00:00.000Z
-summary: never content
 image: https://f4.bcbits.com/img/a1102685530_16.jpg
+summary: never content
 tags:
-- releases
+  - releases
+songtitle: All That I can't see
+lyrics: |-
+  all that I can't see
+  wraps around me
+  like a memory of fear
+  aching for some place safe
+  to make a home
+  oh, what does it take from me
+
+  if I were a lake
+  my body wouldn't break
+  beneath its own weight
+
+  hold me up higher
+  wind in my face
+  still I can't
 ---
 
 
