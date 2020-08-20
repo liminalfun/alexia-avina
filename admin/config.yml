@@ -9,8 +9,8 @@ media_folder: "static/img" # Media files will be stored in the repo under images
 
 collections:
   # Releases
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Release" # Used in the UI
+  - name: "releases" # Used in routes, e.g., /admin/collections/blog
+    label: "Releases" # Used in the UI
     folder: "releases" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -28,7 +28,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["release"] }
       - { label: "Body", name: "body", widget: "markdown" }
   # Press
-- name: "blog" # Used in routes, e.g., /admin/collections/blog
+  - name: "press" # Used in routes, e.g., /admin/collections/blog
     label: "Press" # Used in the UI
     folder: "press" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
