@@ -271,14 +271,15 @@ section.listen li{
 
  /* Style the buttons that are used to open and close the accordion panel */
  .accordion {
-	background-color: #eee;
-	color: #444;
+	background-color: var(--background);
+	color: var(--primary);
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
 	text-align: left;
 	border: none;
-	outline: none;
+	outline: 1px solid var(--primary);
+	-moz-outline-radius: 3px;
 	transition: 0.4s;
   }
   
@@ -306,7 +307,7 @@ section.listen li{
   .accordion:after {
 	content: '\02795'; /* Unicode character for "plus" sign (+) */
 	font-size: 13px;
-	color: #777;
+	color: var(--primary);
 	float: right;
 	margin-left: 5px;
   }
