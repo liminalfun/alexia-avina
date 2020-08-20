@@ -1,17 +1,19 @@
- <button class="accordion">Section 1</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
-
-<button class="accordion">Section 2</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
-
-<button class="accordion">Section 3</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div> 
+<section class="accordion-wrapper">
+	{% for post in releases %}
+  <button class="accordion">
+    {% if releases.data.songtitle %}
+		  {{ releases.data.songtitle }}
+		{% endif %}
+  </button>
+  <div class="panel">
+    <p>
+      {% if release.data.lyrics %}
+		    {{ release.data.lyrics }}
+		  {% endif %}
+    </p>
+  </div>
+	{% endfor %}
+</section>
 
   {% set js %}
     {% include "assets/js/accordion.js" %}

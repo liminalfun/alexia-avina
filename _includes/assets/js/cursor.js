@@ -166,8 +166,4 @@ function createDiv(height, width) {
   div.style.backgroundColor=colour;
   return (div);
 }
-<<<<<<< HEAD
 // ]]>
-=======
-// ]]>
->>>>>>> a4cc3d00fffed6c7903fcf6bed9d7b123cb56b4a
