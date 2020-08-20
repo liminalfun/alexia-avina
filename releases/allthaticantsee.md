@@ -5,26 +5,10 @@ image: https://f4.bcbits.com/img/a1102685530_16.jpg
 summary: never content
 tags:
   - releases
-songtitle: All That I can't see
-lyrics: |-
-  all that I can't see
-  wraps around me
-  like a memory of fear
-  aching for some place safe
-  to make a home
-  oh, what does it take from me
-
-  if I were a lake
-  my body wouldn't break
-  beneath its own weight
-
-  hold me up higher
-  wind in my face
-  still I can't
 ---
 
 
-<iframe style="border: 0; width: 320px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=1753002933/size=large/bgcol=ffffff/linkcol=B1B4C3/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/all-that-i-cant-see">All That I Can&#39;t See by Alexia Avina</a></iframe>
+<iframe style="border: 0; width: 100%; height: 406px;" src="https://bandcamp.com/EmbeddedPlayer/album=1753002933/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/all-that-i-cant-see">All That I Can&#39;t See by Alexia Avina</a></iframe>
 
 buy a tape here --> [:: never content ::](becomecontent.bandcamp.com/album/all-that-i-cant-see)
 
@@ -36,31 +20,43 @@ and to evan for bringing these songs to life with such love and vision, I couldn
 
 ## Lyrics
 
-__Adult__
-
-baby, I can't stay
+<section class="accordion-wrapper">
+  <button class="accordion">
+    Adult
+  </button>
+  <div class="panel">
+    <p>
+      baby, I can't stay
 lying awake in your dark
 while my rain waits to fall
 
 baby, I can't say
 what this has made
 me weigh in my palms
+    </p>
+  </div>
 
-___
-__Dream__
-
-bathing in a golden light
+  <button class="accordion">
+    Dream
+  </button>
+  <div class="panel">
+    <p>
+      bathing in a golden light
 I found him with his eyes closed slightly
 wandering through some melody
 his head an orb nodding slightly
 my mind's a path burning blindly
 back into a distant dream
 pacing in my sleep
-___
+    </p>
+  </div>
 
-__Attitude__
-	
-painting the walls brown while I'm leaning
+  <button class="accordion">
+    Attitude
+  </button>
+  <div class="panel">
+    <p>
+      painting the walls brown while I'm leaning
 I watched the floorboards with the feeling
 that I'd known this cold wind all along
 
@@ -74,11 +70,15 @@ you spoke of darkness and honesty
 
 could it have been your attitude
 the weightless drift into ruin
-___
+    </p>
+  </div>
 
-__All That I Can't See__
-
-all that I can't see
+  <button class="accordion">
+    All That I Can't See
+  </button>
+  <div class="panel">
+    <p>
+     all that I can't see
 wraps around me
 like a memory of fear
 aching for some place safe
@@ -92,11 +92,15 @@ beneath its own weight
 hold me up higher
 wind in my face
 still I can't
-___
+    </p>
+  </div>
 
-__A Ficus Tree__
-
-didn't you think it was fun
+<button class="accordion">
+    A Ficus Tree
+  </button>
+  <div class="panel">
+    <p>
+    didn't you think it was fun
 the way we stared at the sun
 you said you wished
 you shone like it
@@ -107,14 +111,24 @@ golden purple was the wind
 how could one miss a view like this
 
 to feel more like a child
-___
+    </p>
+  </div>
 
-__Like Fog__
-
-like fog my mind collects on windows concealed in thought
+<button class="accordion">
+    Like Fog
+  </button>
+  <div class="panel">
+    <p>
+    like fog my mind collects on windows concealed in thought
 the kind of white haze that reveals where I know I'm not
 does it last, if I fall back
 
 like moss i am seeking through shadow a bed of rock
 to turn the dark glare of an edge into something soft
 if i hold back, does it last and last
+    </p>
+  </div>
+
+</section>
+
+<script src="/_includes/assets/js/accordion.js"></script>
