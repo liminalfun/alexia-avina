@@ -5,6 +5,37 @@ image: https://f4.bcbits.com/img/a1102685530_16.jpg
 summary: never content
 tags:
   - releases
+lyricAccordion:
+  - body: |-
+      baby, I can't stay <br>
+
+      lying awake in your dark <br>
+
+      while my rain waits to fall <br>
+
+      <br>
+
+      baby, I can't say <br>
+
+      what this has made <br>
+
+      me weigh in my palms
+    songtitle: Adult
+  - body: |-
+      bathing in a golden light <br>
+
+      I found him with his eyes closed slightly <br>
+
+      wandering through some melody <br>
+
+      his head an orb nodding slightly <br>
+
+      my mind's a path burning blindly <br>
+
+      back into a distant dream <br>
+
+      pacing in my sleep
+    songtitle: Dream
 ---
 
 
