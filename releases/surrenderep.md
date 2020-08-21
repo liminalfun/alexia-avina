@@ -16,12 +16,11 @@ lyricAccordion:
 
       la la
 ---
-
-<iframe style="border: 0; width: 320px; height: 621px;" src="https://bandcamp.com/EmbeddedPlayer/album=4096772190/size=large/bgcol=ffffff/linkcol=B1B4C3/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/surrender-ep">Surrender EP by Alexia Avina</a></iframe>
+<iframe style="border: 0; width: 100%; height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=4096772190/size=large/bgcol=ffffff/linkcol=B1B4C3/artwork=small/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/surrender-ep">Surrender EP by Alexia Avina</a></iframe>
 
 the last months of 2016 for me were a period marked by the practice of surrendering with equal reverence to a complex flood of emotions, difficult endings, and budding beginnings... i'd like to think this batch of songs emerged from that same stream.
 
-available as a * very cute* split cassette with desert bloom at:
+available as a  *very cute* split cassette with desert bloom at:
 moonboyrecords.bandcamp.com/album/alexia-avina-surrender-ep-desert-bloom-ep2
 
 music video by miriam brellenthin:
