@@ -1,15 +1,132 @@
+{% include lyricAccordion %}
+
+<h1>Lyrics</h1>
+
+{% endfor %}
+
 <section class="accordion-wrapper">
-	{% for post in releases %}
   <button class="accordion">
-    {% if releases.data.songtitle %}
-		  {{ releases.data.songtitle }}
-		{% endif %}
+    Adult
   </button>
   <div class="panel">
     <p>
-      {% if release.data.lyrics %}
-		    {{ release.data.lyrics }}
-		  {% endif %}
+      baby, I can't stay
+lying awake in your dark
+while my rain waits to fall
+
+baby, I can't say
+what this has made
+me weigh in my palms
+    </p>
+  </div>
+
+  <button class="accordion">
+    Dream
+  </button>
+  <div class="panel">
+    <p>
+      bathing in a golden light
+I found him with his eyes closed slightly
+wandering through some melody
+his head an orb nodding slightly
+my mind's a path burning blindly
+back into a distant dream
+pacing in my sleep
+    </p>
+  </div>
+
+  <button class="accordion">
+    Attitude
+  </button>
+  <div class="panel">
+    <p>
+      painting the walls brown while I'm leaning
+I watched the floorboards with the feeling
+that I'd known this cold wind all along
+
+could it have been my attitude
+the way we slept in this room
+
+traced in your body the same break of the ocean, fluid flame
+and an icy void inside of me
+swirled down deep into my knees
+you spoke of darkness and honesty
+
+could it have been your attitude
+the weightless drift into ruin
+    </p>
+  </div>
+
+  <button class="accordion">
+    All That I Can't See
+  </button>
+  <div class="panel">
+    <p>
+     all that I can't see
+wraps around me
+like a memory of fear
+aching for some place safe
+to make a home
+oh, what does it take from me
+
+if I were a lake
+my body wouldn't break
+beneath its own weight
+
+hold me up higher
+wind in my face
+still I can't
+    </p>
+  </div>
+
+<button class="accordion">
+    A Ficus Tree
+  </button>
+  <div class="panel">
+    <p>
+    didn't you think it was fun
+the way we stared at the sun
+you said you wished
+you shone like it
+
+I looked to you and I felt warmth
+we walked outside to free the form
+golden purple was the wind
+how could one miss a view like this
+
+to feel more like a child
+    </p>
+  </div>
+
+<button class="accordion">
+    Like Fog
+  </button>
+  <div class="panel">
+    <p>
+    like fog my mind collects on windows concealed in thought
+the kind of white haze that reveals where I know I'm not
+does it last, if I fall back
+
+like moss i am seeking through shadow a bed of rock
+to turn the dark glare of an edge into something soft
+if i hold back, does it last and last
+    </p>
+  </div>
+
+</section>
+
+<script src="/_includes/assets/js/accordion.js"></script>
+
+<section class="accordion-wrapper">
+	{% for lyricAccordion in releases %}
+  <button class="accordion">
+    title
+		  {{ songtitle }}
+  </button>
+  <div class="panel">
+    <p>
+		    lyrics
+        {{ lyrics }}
     </p>
   </div>
 	{% endfor %}

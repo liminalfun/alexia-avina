@@ -11,23 +11,10 @@ section: release
     </small>
   </p>
 
-  {% include "components/accordion.njk" %}
-
   {{ layoutContent | safe }}
 
-  {% if tags %}
-    <p>
-    {% for tag in tags %}
-      {%- if tag != "release" -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-      {%- endif -%}
-    {% endfor %}
-    </p>
-  {% endif %}
+  {% include "components/accordion.njk" %}
+
+  {{ lyricAccordion | safe }}
 
 </article>
-
-<nav>
-  <a href="{{ '/blog/' | url }}">← Blog index</a>
-</nav>
