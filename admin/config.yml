@@ -26,7 +26,7 @@ collections:
         widget: "list"
         fields:
         - { label: "Song Title", name: "songtitle", widget: "text"}
-        - { label: "Lyrics", name: "body", widget: "markdown" }
+        - { label: "Lyrics", name: "lyrics", widget: "markdown" }
   # Press
   - name: "press" # Used in routes, e.g., /admin/collections/blog
     label: "Press" # Used in the UI

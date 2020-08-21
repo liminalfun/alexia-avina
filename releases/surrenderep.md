@@ -5,21 +5,6 @@ image: https://f4.bcbits.com/img/a3867583884_16.jpg
 summary: Self-released
 tags:
   - releases
-lyricAccordion:
-  - songtitle: test title
-    body: |-
-      test lyrics
-      <br>
-      lyrics
-      <br>    
-      la
-      <br>
-      la la
-  - songtitle: another song
-    body: |-
-      more lyrics 
-
-      la la la
 ---
 <iframe style="border: 0; width: 100%; height: 316px;" src="https://bandcamp.com/EmbeddedPlayer/album=4096772190/size=large/bgcol=ffffff/linkcol=B1B4C3/artwork=small/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/surrender-ep">Surrender EP by Alexia Avina</a></iframe>
 
