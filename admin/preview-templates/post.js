@@ -39,6 +39,9 @@ const Post = createClass({
               )
             }
           </p>
+
+          ${this.props.widgetFor("lyricAccordion")}
+
         </article>
       </main>
     `;
