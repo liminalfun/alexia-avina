@@ -34,14 +34,11 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
-      - { label: "Hyperlink", name: "hyperlink", widget: "string" }
-      - { label: "Photography", name: "photography", widget: "string" }
+      - { label: "Title (i.e. who published it?)", name: "title", widget: "string" }
+      - { label: "Hyperlink to article", name: "hyperlink", widget: "string" }
+      - { label: "Photography by:", name: "photography", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["press"] }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Excerpt from article", name: "summary", widget: "text" }
   # Our pages e.g. About
   - name: "pages"
     label: "Page"
