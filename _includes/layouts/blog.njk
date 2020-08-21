@@ -4,13 +4,21 @@ section: blog
 permalink: /blog/index.html
 ---
 
-<h1>Releases</h1>
+<h1 id="releases">Releases</h1>
 {% set postslist = collections.releases %}
 {% include "components/postslist.njk" %}
 
-<h1>Press</h1>
+<h1 id="press">Press</h1>
 
 {% set postslist = collections.press %}
 {% include "components/postslist_press.njk" %}
+
+<h1 id="merch">Merch</h1>
+<section class="centered">
+    <a href="https://alexiaavina.bandcamp.com/merch">
+        <button class="btn-outline">check out my merch on bandcamp</button>
+    </a>
+</section>
+
 
 {{ layoutContent | safe }}

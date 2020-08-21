@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+section: presslist
+permalink: /presslist/index.html
+---
+
+<h1>Press</h1>
+
+{% set postslist = collections.press %}
+{% include "components/postslist_press.njk" %}
+
+{{ layoutContent | safe }}

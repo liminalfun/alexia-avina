@@ -193,6 +193,41 @@ header nav li a:hover  {
 	color: var(--peach);
 }
 
+/* Nav Dropdown */
+
+header nav li a:not(:only-child):after {
+	padding-left: 4px;
+	content: ' ▾';
+}
+
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+ }
+ 
+nav li ul {
+	display: none;
+	position: absolute;
+	width: 100px;
+	left: 0;
+	top: 100%;
+	margin: 0;
+	padding: 0;
+ }
+ 
+nav li:hover > ul, nav li:active > ul {
+	display: block;
+	z-index: 1;
+	text-align: left;
+	background-color: var(--background);
+}
+ 
+nav li ul li {
+	margin-left: 0;
+	padding-left: 0;
+ }
+
 /* Footer */
 
 footer {
