@@ -1,13 +1,15 @@
 <section class="accordion-wrapper">
-	{% for lyricAccordion in releases %}
+	{% for lyrics in lyricAccordion %}
   <button class="accordion">
-    title
-		  {{ songtitle }}
+    {% if lyrics.songtitle %}
+		  {{ lyrics.songtitle }}
+    {% endif %}
   </button>
   <div class="panel">
     <p>
-		    lyrics
-        {{ lyrics }}
+        {% if lyrics.body %}
+					{{ lyrics.body | safe }}
+				{% endif %}
     </p>
   </div>
 	{% endfor %}
@@ -16,4 +18,4 @@
   {% set js %}
     {% include "assets/js/accordion.js" %}
   {% endset %}
-  <script>{{ js | jsmin | safe }}</script>
+  <script>{{ js | jsmin | safe }}</script> 

@@ -7,21 +7,21 @@ tags:
   - releases
 lyricAccordion:
   - songtitle: test title
-    lyrics: |-
+    body: |-
       test lyrics
-
+      <br>
       lyrics
-
+      <br>    
       la
-
+      <br>
       la la
   - songtitle: another song
-    lyrics: |-
+    body: |-
       more lyrics 
 
       la la la
 ---
-<iframe style="border: 0; width: 100%; height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=4096772190/size=large/bgcol=ffffff/linkcol=B1B4C3/artwork=small/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/surrender-ep">Surrender EP by Alexia Avina</a></iframe>
+<iframe style="border: 0; width: 100%; height: 316px;" src="https://bandcamp.com/EmbeddedPlayer/album=4096772190/size=large/bgcol=ffffff/linkcol=B1B4C3/artwork=small/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/surrender-ep">Surrender EP by Alexia Avina</a></iframe>
 
 the last months of 2016 for me were a period marked by the practice of surrendering with equal reverence to a complex flood of emotions, difficult endings, and budding beginnings... i'd like to think this batch of songs emerged from that same stream.
 
