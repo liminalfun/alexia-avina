@@ -15,6 +15,23 @@ lyricAccordion:
       baby, I can't say
       what this has made
       me weigh in my palms
+    body: |-
+      baby, I can't stay / 
+      lying awake in your dark / 
+      while my rain waits to fall / 
+
+      baby, I can't say / 
+      what this has made / 
+      me weigh in my palms
+  - songtitle: Dream
+    body: |-
+      bathing in a golden light /
+      I found him with his eyes closed slightly /
+      wandering through some melody /
+      his head an orb nodding slightly /
+      my mind's a path burning blindly /
+      back into a distant dream /
+      pacing in my sleep
 ---
 
 
