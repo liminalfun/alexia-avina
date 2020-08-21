@@ -15,6 +15,11 @@ lyricAccordion:
       la
 
       la la
+  - songtitle: another song
+    lyrics: |-
+      more lyrics 
+
+      la la la
 ---
 <iframe style="border: 0; width: 100%; height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=4096772190/size=large/bgcol=ffffff/linkcol=B1B4C3/artwork=small/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/surrender-ep">Surrender EP by Alexia Avina</a></iframe>
 
