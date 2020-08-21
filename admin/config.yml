@@ -21,8 +21,12 @@ collections:
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["release"] }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Song Title", name: "songtitle", widget: "text"}
-      - { label: "Lyrics", name: "lyrics", widget: "markdown"}
+      - label: "Lyrics"
+        name: "lyricAccordion"
+        widget: "list"
+        fields:
+        - { label: "Song Title", name: "songtitle", widget: "text"}
+        - { label: "Lyrics", name: "lyrics", widget: "markdown"}
   # Press
   - name: "press" # Used in routes, e.g., /admin/collections/blog
     label: "Press" # Used in the UI
