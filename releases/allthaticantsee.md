@@ -36,6 +36,102 @@ lyricAccordion:
 
       pacing in my sleep
     songtitle: Dream
+  - songtitle: Attitude
+    body: |-
+      painting the walls brown while I'm leaning <br>
+
+      I watched the floorboards with the feeling <br>
+
+      that I'd known this cold wind all along <br> <br>
+
+
+
+      could it have been my attitude <br>
+
+      the way we slept in this room <br> <br>
+
+
+
+      traced in your body the same break of the ocean, fluid flame <br>
+
+      and an icy void inside of me <br>
+
+      swirled down deep into my knees <br>
+
+      you spoke of darkness and honesty <br>
+
+
+
+      could it have been your attitude <br>
+
+      the weightless drift into ruin
+  - body: |-
+      all that I can't see <br>
+
+      wraps around me <br>
+
+      like a memory of fear <br>
+
+      aching for some place safe <br>
+
+      to make a home <br>
+
+      oh, what does it take from me <br> <br>
+
+
+
+      if I were a lake <br>
+
+      my body wouldn't break <br>
+
+      beneath its own weight <br><br>
+
+
+
+      hold me up higher <br>
+
+      wind in my face <br>
+
+      still I can't
+    songtitle: All That I Can't See
+  - body: |-
+      didn't you think it was fun <br>
+
+      the way we stared at the sun <br>
+
+      you said you wished <br>
+
+      you shone like it <br><br>
+
+
+
+      I looked to you and I felt warmth <br>
+
+      we walked outside to free the form <br>
+
+      golden purple was the wind <br>
+
+      how could one miss a view like this <br><br>
+
+
+
+      to feel more like a child
+    songtitle: A Ficus Tree
+  - songtitle: Like Fog
+    body: |-
+      like fog my mind collects on windows concealed in thought <br>
+
+      the kind of white haze that reveals where I know I'm not <br>
+
+      does it last, if I fall back <br><br>
+
+
+
+      like moss i am seeking through shadow a bed of rock <br>
+
+      to turn the dark glare of an edge into something soft <br>
+
+      if i hold back, does it last and last
 ---
 
 
