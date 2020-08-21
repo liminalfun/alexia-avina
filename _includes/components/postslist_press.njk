@@ -10,7 +10,7 @@
 					{% endif %}
 				</h3>
 				{% if post.data.image %}
-					<img src="{{ post.data.image }}">
+					<img class="press" src="{{ post.data.image }}">
 				{% endif %}
 				<small class ="summary"> 
 					{% if post.data.photography %}
@@ -18,7 +18,7 @@
 						{{ post.data.photography }}
 					{% endif%}
 				</small>
-				<p class="summary">
+				<p class="summary press">
 				{% if post.data.summary %}
 						{{ post.data.summary }}...
 					{% endif %}

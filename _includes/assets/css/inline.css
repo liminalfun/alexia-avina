@@ -372,6 +372,21 @@ main > section > article > * {
 	color: var(--primary)
 }
 
+/* Press List */
+
+p.press {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+img.press {
+	height: 200px;
+	object-fit: cover;
+}
+
 /* Post Tags */
 a[rel="tag"],
 a[rel="tag"]:visited {
