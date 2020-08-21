@@ -5,6 +5,16 @@ image: https://f4.bcbits.com/img/a1102685530_16.jpg
 summary: never content
 tags:
   - releases
+lyricAccordion:
+  - songtitle: Adult
+    lyrics: |-
+      baby, I can't stay
+      lying awake in your dark
+      while my rain waits to fall
+
+      baby, I can't say
+      what this has made
+      me weigh in my palms
 ---
 
 
