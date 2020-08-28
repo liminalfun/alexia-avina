@@ -60,29 +60,29 @@ lyricAccordion:
 
       the weightless drift into ruin
   - lyrics: |-
-      you could have fooled me then by saying we were only friends
+      you could have fooled me then by saying we were only friends <br>
 
-      stepping down the sidewalk searching for the right bend
+      stepping down the sidewalk searching for the right bend <br>
 
-      enter the parking lot where I picked apart the look
+      enter the parking lot where I picked apart the look <br>
 
-      you gave me in the backseat hoping that I would not find
+      you gave me in the backseat hoping that I would not find <br>
 
-      a tear in such a bright light
+      a tear in such a bright light <br> <br>
 
-      I dreamt I found you there
+      I dreamt I found you there<br>
 
-      in your room up the stairs
+      in your room up the stairs<br>
 
-      staring through a distance I couldn't begin to bear
+      staring through a distance I couldn't begin to bear<br>
 
-      you dreamt that we fell right
+      you dreamt that we fell right<br>
 
-      in the snow on our sides
+      in the snow on our sides<br>
 
-      smiling into something eternal in you and I
+      smiling into something eternal in you and I<br>
 
-      oh, to find a tear inside a white light.
+      oh, to find a tear inside a white light.<br>
     songtitle: Friends
   - lyrics: |-
       all that I can't see <br>
