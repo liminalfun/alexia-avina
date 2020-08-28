@@ -37,20 +37,16 @@ lyricAccordion:
       pacing in my sleep
     songtitle: Dream
   - songtitle: Attitude
-  - lyrics: |-
+    lyrics: |-
       painting the walls brown while I'm leaning <br>
 
       I watched the floorboards with the feeling <br>
 
       that I'd known this cold wind all along <br> <br>
 
-
-
       could it have been my attitude <br>
 
       the way we slept in this room <br> <br>
-
-
 
       traced in your body the same break of the ocean, fluid flame <br>
 
@@ -60,11 +56,34 @@ lyricAccordion:
 
       you spoke of darkness and honesty <br>
 
-
-
       could it have been your attitude <br>
 
       the weightless drift into ruin
+  - lyrics: |-
+      you could have fooled me then by saying we were only friends
+
+      stepping down the sidewalk searching for the right bend
+
+      enter the parking lot where I picked apart the look
+
+      you gave me in the backseat hoping that I would not find
+
+      a tear in such a bright light
+
+      I dreamt I found you there
+
+      in your room up the stairs
+
+      staring through a distance I couldn't begin to bear
+
+      you dreamt that we fell right
+
+      in the snow on our sides
+
+      smiling into something eternal in you and I
+
+      oh, to find a tear inside a white light.
+    songtitle: Friends
   - lyrics: |-
       all that I can't see <br>
 
