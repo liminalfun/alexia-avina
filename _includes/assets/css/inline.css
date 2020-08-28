@@ -523,7 +523,8 @@ section.testimonial {
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	margin: auto;
-    grid-gap: var(--gap-spacing);
+	grid-gap: var(--gap-spacing);
+	text-align: center;
 }
 
 .testimonial img {
