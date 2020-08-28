@@ -7,7 +7,7 @@ tags:
   - releases
 lyricAccordion:
   - songtitle: Song 36
-    body: |-
+    lyrics: |-
       when I walk I try to keep <br>
 
       my mind warm with a swarm of every reverie <br><br>
@@ -25,7 +25,7 @@ lyricAccordion:
       would you comb my hair slowly and blow it dry <br>
 
       it's a walk to go between our houses but I don't mind
-  - body: |-
+  - lyrics: |-
       yes I can be a glove <br>
 
       it may hurt a little <br>
@@ -52,7 +52,7 @@ lyricAccordion:
 
       be
     songtitle: Glove
-  - body: |-
+  - lyrics: |-
       I'm not afraid to try <br>
 
       to swim into the deeper side <br>
@@ -74,7 +74,7 @@ lyricAccordion:
       oh, I am bad <br>
     songtitle: Bad
   - songtitle: X
-    body: |-
+    lyrics: |-
       look at me <br>
 
       I feel all of the things I do in the way you move <br>
@@ -96,7 +96,7 @@ lyricAccordion:
       I've been holding this dream closely <br>
 
       I'm all too sure of what it means
-  - body: |-
+  - lyrics: |-
       don't you ever worry <br>
 
       about all of the things you lack <br>
@@ -126,7 +126,7 @@ lyricAccordion:
       but now I'm not the only <br>
 
       the only one of us who can't relax
-    songtitle: Don't You Give
+  - songtitle: Don't You Give
 ---
 
 <iframe style="border: 0; width: 100%; height: 406px;" src="https://bandcamp.com/EmbeddedPlayer/album=1560507234/size=large/bgcol=ffffff/linkcol=B1B4C3/artwork=small/transparent=true/" seamless><a href="http://alexiaavina.bandcamp.com/album/betting-on-an-island">Betting on an Island by Alexia Avina</a></iframe>

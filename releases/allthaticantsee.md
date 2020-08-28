@@ -6,7 +6,7 @@ summary: never content
 tags:
   - releases
 lyricAccordion:
-  - body: |-
+  - lyrics: |-
       baby, I can't stay <br>
 
       lying awake in your dark <br>
@@ -21,7 +21,7 @@ lyricAccordion:
 
       me weigh in my palms
     songtitle: Adult
-  - body: |-
+  - lyrics: |-
       bathing in a golden light <br>
 
       I found him with his eyes closed slightly <br>
@@ -37,7 +37,7 @@ lyricAccordion:
       pacing in my sleep
     songtitle: Dream
   - songtitle: Attitude
-    body: |-
+  - lyrics: |-
       painting the walls brown while I'm leaning <br>
 
       I watched the floorboards with the feeling <br>
@@ -65,7 +65,7 @@ lyricAccordion:
       could it have been your attitude <br>
 
       the weightless drift into ruin
-  - body: |-
+  - lyrics: |-
       all that I can't see <br>
 
       wraps around me <br>
@@ -82,7 +82,7 @@ lyricAccordion:
 
       if I were a lake <br>
 
-      my body wouldn't break <br>
+      my lyrics wouldn't break <br>
 
       beneath its own weight <br><br>
 
@@ -94,7 +94,7 @@ lyricAccordion:
 
       still I can't
     songtitle: All That I Can't See
-  - body: |-
+  - lyrics: |-
       didn't you think it was fun <br>
 
       the way we stared at the sun <br>
@@ -118,7 +118,7 @@ lyricAccordion:
       to feel more like a child
     songtitle: A Ficus Tree
   - songtitle: Like Fog
-    body: |-
+    lyrics: |-
       like fog my mind collects on windows concealed in thought <br>
 
       the kind of white haze that reveals where I know I'm not <br>
