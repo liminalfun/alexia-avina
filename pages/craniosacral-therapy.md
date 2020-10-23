@@ -18,19 +18,19 @@ Everyone has the ability to heal from within. Beneath our pain and suffering the
 <section class="testimonial">
 <div>
   <img class="circle" src="/static/img/aura-quartz.png">
-<p>“The future is dark, with a darkness as much of the womb as the grave.” <br> <small>― Rebecca Solnit, Hope in the Dark</small></p>
+<p>“Alexia puts her gifted hands to our service in her craniosacral sessions. I always feel like I'm embarking on an adventure into the unknown when I go into her session room, with a safe and compassionate guide.   She's entirely comfortable with that role:  open and unjudging, with a gentle confidence in whatever direction it takes.  I've left every appointment with her so much more relaxed, with more balance in my energy flow, and a greater understanding of myself.  She tends to not give too much interpretation, but her insight is beautifully given, and very helpful if you ask for it.  A wonderful and trustworthy therapist; I fully recommend!! ” <br> <small>― Sally </small></p>
 </div>
 
 <div>
   <img class="circle" src="/static/img/amethyst.jpg">
-<p>“Transform yourself to transform the world”<br><small>
-― Grace Lee Boggs</small></p>
+<p>“~”<br><small>
+― ~</small></p>
 </div>
 
 <div>
   <img class="circle" src="/static/img/angelite.jpg">
-<p>“What we've been trying to figure out how to get to is how we are when we get together to try to figure it out." <br>
-<small>― Fred Moten</small></p>
+<p>“~" <br>
+<small>― ~</small></p>
 </div>
 </section>
 
