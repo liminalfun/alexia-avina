@@ -7,8 +7,16 @@ eleventyNavigation:
   key: Videos
   order: 2
 ---
-
 <section class="centered">
+
+<div class="yt-container">
+     <div class="yt-container">
+    <iframe src="https://www.youtube.com/embed/ZWhQCS21us" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="yt-container">
+    <iframe src="https://www.youtube.com/embed/UfVRTyc5kwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 
   <div class="yt-container">
     <iframe src="https://www.youtube.com/embed/RWGJg0OX9CQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
