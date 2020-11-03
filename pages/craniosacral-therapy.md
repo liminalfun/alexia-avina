@@ -16,15 +16,15 @@ Everyone has the ability to heal from within. Beneath our pain and suffering the
 ## testimonials
 
 <section class="testimonial">
-<div>
+<div class="testimonial-item">
   <img class="circle" src="/static/img/aura-quartz.png">
 <p>“Alexia puts her gifted hands to our service in her craniosacral sessions. I always feel like I'm embarking on an adventure into the unknown when I go into her session room, with a safe and compassionate guide.   She's entirely comfortable with that role:  open and unjudging, with a gentle confidence in whatever direction it takes.  I've left every appointment with her so much more relaxed, with more balance in my energy flow, and a greater understanding of myself.  She tends to not give too much interpretation, but her insight is beautifully given, and very helpful if you ask for it.  A wonderful and trustworthy therapist; I fully recommend!! ” <br> <small>― Sally </small></p>
 </div>
 
 <div>
   <img class="circle" src="/static/img/amethyst.jpg">
-<p>“~”<br><small>
-― ~</small></p>
+<p>“Craniosacral therapy with Alexia has helped me learn to trust my body and create feelings of safety. Small nuances in her sessions led me to shift my perspective and relationship to my soma & nervous system. As a nonbinary person with complex trauma, it is often difficult for me to relax and feel safe. Alexia's practice felt effortlessly inclusive and trauma-informed. Her patience and receptiveness to subtlety was significant in my personal healing journey because she modeled for me what it feels like for my body to be listened to, respected, and trusted.”<br><small>
+― Alex (they/them)</small></p>
 </div>
 
 <div>

@@ -525,11 +525,10 @@ section.centered {
 /* Testimonial */ 
 
 section.testimonial {
-    display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	margin: auto;
-	grid-gap: var(--gap-spacing);
-	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	justify-content: space-around;
 }
 
 .testimonial img {
